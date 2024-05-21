@@ -1,5 +1,3 @@
-# Hand Gesture Recognition with TensorFlow
-
 ## Project Description
 This project aims to build a machine learning model that can recognize hand gestures such as rock, paper, scissors, spock, and lizard using TensorFlow.js and a webcam.
 
