@@ -1,32 +1,32 @@
-# Pengenalan-Gestur-Tangan-dengan-TensorFlow
+# Hand Gesture Recognition with TensorFlow
 
-## Deskripsi Proyek
-Proyek ini bertujuan untuk membangun model pembelajaran mesin yang dapat mengenali gestur tangan seperti batu, kertas, gunting, spock, dan kadal menggunakan TensorFlow.js dan webcam.
+## Project Description
+This project aims to build a machine learning model that can recognize hand gestures such as rock, paper, scissors, spock, and lizard using TensorFlow.js and a webcam.
 
 ## Objective
-Tujuan dari proyek ini adalah untuk mengembangkan sebuah model yang mampu mengenali berbagai gestur tangan
+The objective of this project is to develop a model capable of recognizing various hand gestures.
 
 ## Tools and Methodologies
-- **TensorFlow.js**: Library untuk membangun dan melatih model jaringan saraf tiruan.
-- **MobileNet**: Model pretrained yang digunakan untuk ekstraksi fitur.
-- **Webcam**: Digunakan untuk menangkap gambar gestur tangan secara real-time.
-- **RPSDataset**: Kelas untuk mengelola data latih dan label.
+- **TensorFlow.js**: A library for building and training neural network models.
+- **MobileNet**: A pretrained model used for feature extraction.
+- **Webcam**: Used to capture real-time images of hand gestures.
+- **RPSDataset**: A class to manage training data and labels.
 
 ## Approach and Process
-1. **Persiapan**: Mengatur webcam dan memuat model MobileNet yang telah dilatih sebelumnya.
-2. **Pengumpulan Data**: Mengumpulkan contoh gambar gestur tangan dengan berbagai label (batu, kertas, gunting, spock, kadal).
-3. **Pembentukan Dataset**: Mengkonversi data yang dikumpulkan menjadi format yang dapat digunakan untuk melatih model.
-4. **Pembuatan Model**: Mengkonfigurasi arsitektur model jaringan saraf tiruan dengan menggunakan lapisan-lapisan yang sesuai untuk klasifikasi gambar tangan.
-5. **Pelatihan**: Melatih model dengan menggunakan data yang telah dikumpulkan dan optimizer Adam.
-6. **Evaluasi**: Mengevaluasi kinerja model dengan menggunakan metrik yang sesuai.
-7. **Prediksi**: Mengintegrasikan model dengan aplikasi untuk memprediksi label dari gambar tangan secara real-time.
-8. **Optimisasi**: Mengoptimalkan model dan proses pelatihan untuk meningkatkan kinerja dan efisiensi.
+1. **Preparation**: Set up the webcam and load the pretrained MobileNet model.
+2. **Data Collection**: Collect sample images of hand gestures with various labels (rock, paper, scissors, spock, lizard).
+3. **Dataset Formation**: Convert the collected data into a format suitable for training the model.
+4. **Model Building**: Configure the neural network architecture using appropriate layers for classifying hand gesture images.
+5. **Training**: Train the model using the collected data and the Adam optimizer.
+6. **Evaluation**: Evaluate the model's performance using appropriate metrics.
+7. **Prediction**: Integrate the model into an application to predict labels from real-time hand gesture images.
+8. **Optimization**: Optimize the model and training process to improve performance and efficiency.
 
-## Hasil
-- Model yang dilatih dapat mengenali berbagai gestur tangan dengan tingkat akurasi yang memadai.
-- Aplikasi yang mengintegrasikan model ini dapat memberikan respons yang cepat dan akurat terhadap gestur tangan pengguna.
+## Results
+- The trained model can recognize various hand gestures with adequate accuracy.
+- The application integrating this model can provide quick and accurate responses to user hand gestures.
 
-## Cara Menjalankan Proyek
-1. Clone repositori ini:
+## How to Run the Project
+Clone this repository:
    ```bash
-   git clone https://github.com/gardakhoerunnisa/repo-name.git
+   git clone https://github.com/gardakhoerunnisa/Pengenalan-Gestur-Tangan-dengan-TensorFlow.git
